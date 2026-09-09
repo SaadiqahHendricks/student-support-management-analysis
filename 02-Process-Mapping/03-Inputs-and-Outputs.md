@@ -39,12 +39,12 @@ The support request describes the assistance required by the student.
 
 Examples include:
 
-- Academic assistance.
-- Registration problems.
-- Financial queries.
-- Course or module information.
-- Technical issues.
-- General student assistance.
+- Academic assistance
+- Registration problems
+- Financial queries
+- Course or module information
+- Technical issues
+- General student assistance
 
 ### Request Description
 
@@ -131,19 +131,19 @@ The request record should be updated with relevant information about the actions
 
 Structured request information can be used to provide management with information such as:
 
-- Number of requests received.
-- Number of outstanding requests.
-- Number of overdue requests.
-- Request categories.
-- Staff workload.
-- Average response time.
-- Average resolution time.
+- Number of requests received
+- Number of outstanding requests
+- Number of overdue requests
+- Request categories
+- Staff workload
+- Average response time
+- Average resolution time
 
 ## Input-to-Output Relationship
 
 The process transforms information received from students into structured support records and outcomes.
 
-```text
+````text
 Student Information
        +
 Support Request
@@ -167,3 +167,46 @@ Resolved Request
 Updated Records
        ↓
 Management Information
+
+## Input and Output Problems in the Current Process
+
+The current process has several issues relating to inputs and outputs.
+
+### Input Problems
+
+- Requests are received through multiple communication channels.
+- Information may be incomplete when a request is first received.
+- Information may be recorded differently by different staff members.
+- Supporting information may need to be requested separately.
+- Duplicate requests may occur when students use more than one communication channel.
+
+### Output Problems
+
+- Request status may not always be immediately visible.
+- Students may have limited visibility of request progress.
+- Management information requires manual compilation.
+- Overdue requests may be difficult to identify.
+- Information may become outdated if spreadsheets are not updated consistently.
+
+## Improvement Considerations
+
+The future-state process should aim to improve the way inputs are captured and outputs are produced.
+
+Potential improvements include:
+
+- Standardising the information required when a request is submitted.
+- Centralising support request information.
+- Providing a unique reference number for each request.
+- Using defined request categories.
+- Using standardised request statuses.
+- Clearly recording request ownership.
+- Improving visibility of outstanding and overdue requests.
+- Structuring information so that management reports can be produced efficiently.
+
+These improvements will be considered when developing the future-state To-Be process.
+
+## Case Study Note
+
+This is a fictional Business Analysis portfolio case study. The inputs, outputs and process relationships represent simulated analysis based on the defined business problem and stakeholder findings.
+
+No real stakeholder interviews or observations were conducted.
