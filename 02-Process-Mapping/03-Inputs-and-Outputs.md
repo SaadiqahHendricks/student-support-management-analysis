@@ -141,33 +141,12 @@ Structured request information can be used to provide management with informatio
 
 ## Input-to-Output Relationship
 
-The process transforms information received from students into structured support records and outcomes.
+The student support process transforms information received from students into structured records, assigned work, responses and management information.
 
-````text
-Student Information
-       +
-Support Request
-       +
-Request Details
-       +
-Supporting Information
-       ↓
-Student Support Process
-       ↓
-Recorded Request
-       ↓
-Assigned Request
-       ↓
-Request Handled
-       ↓
-Student Response
-       ↓
-Resolved Request
-       ↓
-Updated Records
-       ↓
-Management Information
-```
+The relationship can be summarised as:
+
+**Student Information + Support Request + Request Details + Supporting Information → Student Support Process → Recorded Request → Assigned Request → Request Handled → Student Response → Resolved Request → Updated Records → Management Information**
+
 ## Input and Output Problems in the Current Process
 
 The current process has several issues relating to inputs and outputs.
