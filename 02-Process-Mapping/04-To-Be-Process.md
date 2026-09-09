@@ -46,59 +46,59 @@ The main inputs to the future-state process include:
 
 The proposed future-state process can be summarised as follows:
 
-START
-↓
-Student identifies a problem
-↓
-Student submits support request through the centralised system
-↓
-System captures and records the request
-↓
-System generates a unique request reference number
-↓
-Student receives confirmation of submission
-↓
-Support staff reviews the request
-↓
-Is sufficient information available?
-├── NO → Request additional information from student
-│          ↓
-│       Student provides information
-│          ↓
-│       Request is updated
-│
-└── YES
-       ↓
-Request is categorised and prioritised
-       ↓
-Request is assigned to the appropriate staff member
-       ↓
-Request status is updated to "Assigned" or "In Progress"
-       ↓
-Staff member investigates and handles request
-       ↓
-Is additional assistance required?
-├── YES → Request is referred to the appropriate department
-│          ↓
-│       Referral is recorded and tracked
-│          ↓
-│       Responsible staff member receives required information
-│          ↓
-│       Request handling continues
-│
-└── NO
-       ↓
-Request is resolved
-       ↓
-Student receives response
-       ↓
-Request record is updated with outcome
-       ↓
-Request is closed
-       ↓
-Management information is updated
-       ↓
-END
+## To-Be Process Flow
+
+The proposed future-state process can be summarised as follows:
+
+1. **Student identifies a problem**
+   - The student requires assistance from the Student Support Department.
+
+2. **Student submits a support request**
+   - The student submits the request through the centralised student support system.
+
+3. **System records the request**
+   - The system captures the submitted information and generates a unique request reference number.
+
+4. **Student receives confirmation**
+   - The student receives confirmation that the request has been submitted successfully.
+
+5. **Support staff reviews the request**
+   - Support staff checks the request to determine whether sufficient information has been provided.
+
+6. **Is sufficient information available?**
+   - **No:** The student is contacted and asked to provide the missing information.
+   - **Yes:** The request continues to the next stage.
+
+7. **Request is categorised and prioritised**
+   - The request is assigned a suitable category and priority level.
+
+8. **Request is assigned**
+   - The request is allocated to the appropriate support staff member.
+
+9. **Request status is updated**
+   - The request status is updated to indicate that it has been assigned or is in progress.
+
+10. **Staff member investigates the request**
+    - The responsible staff member investigates the issue and takes the required action.
+
+11. **Is additional assistance required?**
+    - **Yes:** The request is referred to the appropriate department or staff member, and the referral is recorded and tracked.
+    - **No:** The staff member continues towards resolving the request.
+
+12. **Request is resolved**
+    - The student's issue is addressed and the outcome is recorded.
+
+13. **Student receives a response**
+    - The student is informed of the outcome or resolution.
+
+14. **Request is closed**
+    - The completed request is closed and the final information is retained.
+
+15. **Management information is updated**
+    - The structured request information becomes available for monitoring and management reporting.
+
+16. **END**
+    - The student support request process is complete.
 
 ## Future Process Description
 
