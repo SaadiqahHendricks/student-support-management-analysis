@@ -46,59 +46,63 @@ The main inputs to the future-state process include:
 
 The proposed future-state process can be summarised as follows:
 
-## To-Be Process Flow
-
-The proposed future-state process can be summarised as follows:
-
-1. **Student identifies a problem**
-   - The student requires assistance from the Student Support Department.
-
-2. **Student submits a support request**
-   - The student submits the request through the centralised student support system.
-
-3. **System records the request**
-   - The system captures the submitted information and generates a unique request reference number.
-
-4. **Student receives confirmation**
-   - The student receives confirmation that the request has been submitted successfully.
-
-5. **Support staff reviews the request**
-   - Support staff checks the request to determine whether sufficient information has been provided.
-
-6. **Is sufficient information available?**
-   - **No:** The student is contacted and asked to provide the missing information.
-   - **Yes:** The request continues to the next stage.
-
-7. **Request is categorised and prioritised**
-   - The request is assigned a suitable category and priority level.
-
-8. **Request is assigned**
-   - The request is allocated to the appropriate support staff member.
-
-9. **Request status is updated**
-   - The request status is updated to indicate that it has been assigned or is in progress.
-
-10. **Staff member investigates the request**
-    - The responsible staff member investigates the issue and takes the required action.
-
-11. **Is additional assistance required?**
-    - **Yes:** The request is referred to the appropriate department or staff member, and the referral is recorded and tracked.
-    - **No:** The staff member continues towards resolving the request.
-
-12. **Request is resolved**
-    - The student's issue is addressed and the outcome is recorded.
-
-13. **Student receives a response**
-    - The student is informed of the outcome or resolution.
-
-14. **Request is closed**
-    - The completed request is closed and the final information is retained.
-
-15. **Management information is updated**
-    - The structured request information becomes available for monitoring and management reporting.
-
-16. **END**
-    - The student support request process is complete.
+```text
+START
+  ↓
+Student identifies a problem
+  ↓
+Student submits support request through centralised system
+  ↓
+System captures and records the request
+  ↓
+System generates a unique request reference number
+  ↓
+Student receives confirmation of submission
+  ↓
+Support staff reviews the request
+  ↓
+Is sufficient information available?
+  ├── NO → Request additional information from student
+  │          ↓
+  │       Student provides information
+  │          ↓
+  │       Request is updated
+  │          ↓
+  │       Review request again
+  │
+  └── YES
+       ↓
+Request is categorised and prioritised
+       ↓
+Request is assigned to appropriate staff member
+       ↓
+Request status is updated to "Assigned" or "In Progress"
+       ↓
+Staff member investigates and handles request
+       ↓
+Is additional assistance required?
+  ├── YES → Refer request to appropriate department
+  │          ↓
+  │       Referral is recorded and tracked
+  │          ↓
+  │       Responsible staff member receives required information
+  │          ↓
+  │       Request handling continues
+  │
+  └── NO
+       ↓
+Request is resolved
+       ↓
+Student receives response
+       ↓
+Request record is updated with outcome
+       ↓
+Request is closed
+       ↓
+Management information is updated
+       ↓
+END
+```
 
 ## Future Process Description
 
@@ -110,7 +114,7 @@ The request form should capture the information required to understand and proce
 
 ### 2. Request Recording
 
-The system records the request and generates a unique reference number.
+The system records the request and generates a unique request reference number.
 
 The reference number allows the request to be identified and tracked throughout the process.
 
@@ -124,11 +128,11 @@ The confirmation should include the request reference number so that the student
 
 Support staff review the submitted request to determine whether sufficient information has been provided.
 
-If information is missing, the student is contacted and the request is placed into an appropriate status until the required information is received.
+If information is missing, the student is contacted and asked to provide the required information before the request continues.
 
 ### 5. Categorisation and Prioritisation
 
-The request is assigned a category based on the type of assistance required.
+The request is assigned a suitable category based on the type of assistance required.
 
 The request is also prioritised according to its urgency and potential impact.
 
@@ -259,5 +263,7 @@ These outcomes are expected benefits of the proposed process and are not claims 
 This is a fictional Business Analysis portfolio case study.
 
 The To-Be process represents a proposed future-state process based on simulated stakeholder findings, the identified business problems, process analysis and documented requirements.
+
+No real system has been implemented and no real stakeholder interviews or observations were conducted.
 
 No real system has been implemented and no real stakeholder interviews or observations were conducted.
