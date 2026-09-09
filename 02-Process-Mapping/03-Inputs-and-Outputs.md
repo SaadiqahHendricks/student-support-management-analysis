@@ -167,7 +167,7 @@ Resolved Request
 Updated Records
        ↓
 Management Information
-
+```
 ## Input and Output Problems in the Current Process
 
 The current process has several issues relating to inputs and outputs.
